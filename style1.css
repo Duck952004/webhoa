@@ -1,0 +1,44 @@
+/* Căn chỉnh các thành phần chính giữa */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao toàn màn hình */
+    margin: 0;
+    background-color: #c4e3e8; /* Màu nền */
+}
+
+.center {
+    text-align: center;
+}
+
+/* Định dạng kích thước cho h1 và h3 */
+h1 {
+    font-size: 3rem; /* Kích thước chữ cho tiêu đề */
+    color: #333;
+}
+
+h3 {
+    font-size: 2rem; /* Kích thước chữ cho phụ đề */
+    color: #555;
+}
+
+/* Định dạng cho nút bấm */
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #e60073; /* Màu khi hover */
+}
